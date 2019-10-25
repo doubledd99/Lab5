@@ -1,3 +1,18 @@
+/*
+	Daniel Dooley
+	C++ 1st Semester 2019
+	Due: Due Date 10/24/19
+	Lab number 5
+	Description: Write a number-guessing game in which the computer selects a random
+	number in the range of 0 to 100, and users get a maximum of 20 attempts to guess it. At
+	the end of each game, users should be told whether they won or lost, and then be asked
+	whether they want to play again. When the user quits, the program should output the
+	total number of wins and losses. To make the game more interesting, the program
+	should vary the wording of the messages that it outputs for winning, for losing, and for
+	asking for another game.
+*/
+
+
 #include <iostream> //These are the libraries needed to run the program
 #include <stdlib.h>
 #include <time.h>
